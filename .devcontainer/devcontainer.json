@@ -1,0 +1,10 @@
+{
+  "name": "Result Processing System",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24-bookworm",
+  "forwardPorts": [4175],
+  "portsAttributes": {
+    "4175": {
+      "label": "Result Processing System"
+    }
+  }
+}

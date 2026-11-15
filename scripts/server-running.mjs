@@ -1,0 +1,1 @@
+const port=Number(process.env.PORT||4175);try{const r=await fetch(`http://127.0.0.1:${port}/api/health`,{signal:AbortSignal.timeout(1500)});const data=await r.json();process.exit(data.ok&&data.application==='result-processing-system'?0:1);}catch{process.exit(1);}
